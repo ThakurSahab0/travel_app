@@ -3,9 +3,9 @@ class DataModel {
   String img;
   String description;
   String location;
-  int stars;
-  int people;
-  int price;
+  double stars;
+  double people;
+  double price;
   DataModel(
       {required this.name,
       required this.description,
